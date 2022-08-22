@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper_proyect{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #E84545;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper_reloj{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    gap: 15px;
+    color: #F7F5F2;
+}
+.title_proyect{
+    text-transform: uppercase;
+    color:#F7F5F2;
+    letter-spacing: 7px;
+    font-weight: bolder;
+}
+
+.wrapper_tiempo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2B2E4A;
+    width: 100px;
+    height: 90px;
+    font-size: 25px;
+}
+
+.wrapper_ampm{
+    font-size: 25px;
+    font-weight:1000;
+    color: #2B2E4A;
+}
+
+.wrapper_tiempo .text{
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #E84545;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
